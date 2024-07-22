@@ -1,0 +1,15 @@
+<resources>
+    <color name="colorPrimary">#C2185B</color>
+    <color name="colorPrimaryDark">#8C9EFF</color>
+    <color name="colorAccent">#80D8FF</color>
+
+    <!-- Additional Colors -->
+    <color name="colorBackground">#C8FFF2EE</color>
+    <color name="colorTextPrimary">#0C0C0C</color>
+    <color name="colorTextSecondary">@color/colorTextPrimary</color>
+    <color name="colorCompletedTask">#F8BBD0</color>
+    <color name="colorPendingTask">#FFCDD2</color>
+    <color name="colorbuttons">#8C369B</color>
+</resources>
+
+

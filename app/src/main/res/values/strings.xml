@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">nuevoProyecto</string>
+    <string name="title_task">Añadir titulo de la tarea</string>
+    <string name="descripcion_tarea">Añadir descripcion de la tarea</string>
+    <string name="completed_tasks_title">Listas de Tareas Realizadas</string>
+    <string name="back_to_main">Volver a Principal</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorBackground"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextPrimary"
+        style="@style/TextPrimary"
+        tools:text="Titulo de la tarea"/>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorTextSecondary"
+        style="@style/TextSecondary"
+        tools:text="Descripcion de la tarea"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_items_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btn_mark_as_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcar como Completada"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorbuttons"
+        android:textColor="@color/colorBackground"
+        style="@style/TextPrimary"/>
+
+    <Button
+        android:id="@+id/btn_edit_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Tarea"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorbuttons"
+        android:textColor="@color/colorBackground"
+        style="@style/TextPrimary"/>
+
+    <Button
+        android:id="@+id/btn_back_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver a Principal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorbuttons"
+        android:textColor="@color/colorBackground"
+        style="@style/TextPrimary"/>
+</LinearLayout>
+
